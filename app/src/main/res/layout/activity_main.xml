@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@android:color/background_light">
+
+    <!-- Naslov aplikacije -->
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CarMate"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Gumb za pretraživanje vožnji -->
+    <Button
+        android:id="@+id/btn_search_rides"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Pretraži vožnje"
+        android:textSize="25sp"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:textColor="@android:color/white"
+        android:elevation="4dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Gumb za dodavanje vožnje -->
+    <Button
+        android:id="@+id/btn_add_ride"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Dodaj vožnju"
+        android:textSize="25sp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:textColor="@android:color/white"
+        android:elevation="4dp" />
+</LinearLayout>

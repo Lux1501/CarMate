@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/et_start_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Unesi početnu lokaciju" />
+
+    <EditText
+        android:id="@+id/et_end_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Unesi odredišnu lokaciju"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/et_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Unesi cijenu vožnje"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/tv_departure_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vrijeme polaska"
+        android:layout_marginTop="16dp"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:background="@android:color/darker_gray"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btn_pick_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Odaberi vrijeme polaska"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dodaj vožnju"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
